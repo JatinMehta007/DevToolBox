@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Dashboard } from "./component/dashboard"
+import { Dashboard } from "./pages/dashboard";
+import { WobbleCardDemo } from "./component/Icons";
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Dashboard></Dashboard>}></Route>
+      <Route path="/icons" element={<WobbleCardDemo></WobbleCardDemo>}></Route>
     </Routes>
     </BrowserRouter>
     </>
