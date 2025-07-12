@@ -12,22 +12,24 @@ import stack8 from "/shadcn.svg";
 import stack9 from "/figma.png";
 import stack10 from "/framer.png";
 import stack11 from "/material-ui.svg";
-import stack12 from "/bootstrap.svg";
-
+import stack12 from "/bootstrap-.svg";
+import stack13 from "/lottieflies.png";
 
 export function InfiniteMovingCardsDemo() {
   return (
     <div className=" rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-       <InfiniteMovingCards
-        items={testimonials}
         direction="left"
         speed="slow"
       />
+       <div className="mt-4">
+       <InfiniteMovingCards
+        items={testimonials}
+        direction="right"
+        speed="slow"
+        />
+        </div>
     </div>
   );
 }
@@ -35,11 +37,11 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-    <img src={stack1} alt="accertinity " className="w-32" />, 
+    <img src={stack1} alt="accertinity " className="w-28" />, 
 },
 {
     quote:
-    <img src={stack2} alt="upslash" className="w-32" />, 
+    <img src={stack2} alt="upslash" className="w-28" />, 
 },
 {
     quote:
@@ -66,7 +68,7 @@ const testimonials = [
 },
 {
     quote:
-    <img src="https://goodies.icons8.com/web/common/header/logo/logo-icons8.svg" alt="icons" className="w-32" />, 
+    <img src="https://goodies.icons8.com/web/common/header/logo/logo-icons8.svg" alt="icons" className="w-28" />, 
 },
 {
     quote:
@@ -89,4 +91,33 @@ const testimonials = [
     quote:
     <img src={stack12} alt="boostrap" className="w-32" />, 
 },
+
+{
+    quote:
+    <img src="https://typescale.com/wp-content/themes/typescale/_site/images/logo_header.svg" alt="typescale" className="w-32" />, 
+},
+
+{
+    quote:
+    <img src="https://www.realtimecolors.com/favicon.png" alt="realtime-colors" className="w-32" />, 
+},
+
+{
+    quote:
+    <img src="https://huemint.com/assets/img/logo-icon.svg" alt="huemint" className="w-28" />, 
+},
+{
+    quote:
+    <img src="https://lucide.dev/logo.dark.svg" alt="lucide icons" className="w-28" />, 
+},
+{
+    quote:
+    <img src="https://flowbite.com/images/logo.svg" alt="lucide icons" className="w-28" />, 
+},
+
+{
+    quote:
+    <img src={stack13} alt="boostrap" className="w-32" />, 
+},
+
 ];
