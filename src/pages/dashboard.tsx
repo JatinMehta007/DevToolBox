@@ -83,7 +83,7 @@ export const Dashboard = () => {
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
-                    src="./accer.png"
+                    src="./logos/accer.png"
                     alt="acertinity"
                     className="mx-5 size-10"
                   />
@@ -123,7 +123,7 @@ export const Dashboard = () => {
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
-                    src="./googel.svg"
+                    src="./logos/googel.svg"
                     alt="heropatterns"
                     className="mx-5 size-10"
                   />
@@ -157,7 +157,7 @@ export const Dashboard = () => {
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
-                    src="./figma.svg"
+                    src="./logos/figma.svg"
                     alt="heropatterns"
                     className="mx-5 size-10"
                   />
@@ -194,7 +194,7 @@ export const Dashboard = () => {
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
-                    src="./upslash.png"
+                    src="./logos/upslash.png"
                     alt="heropatterns"
                     className="mx-5 size-10"
                   />
