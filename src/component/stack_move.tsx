@@ -9,12 +9,14 @@ export function InfiniteMovingCardsDemo() {
         items={testimonials}
         direction="right"
         speed="slow"
+        className=""
       />
       <div className="">
         <InfiniteMovingCards
           items={testimonials}
           direction="left"
           speed="slow"
+          className=""
         />
       </div>
     </div>
