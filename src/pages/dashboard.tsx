@@ -5,16 +5,17 @@ import { useEffect, useState } from "react";
 import { Footer } from "../component/Footer";
 
 export const Dashboard = () => {
-   const [searchTerm, setSearchTerm] = useState("");
+   const [searchTerm] = useState("");
 
-  useEffect(() => {
-    const cards = document.querySelectorAll("[data-searchable]");
-    cards.forEach((card) => {
-      const text = card.innerText.toLowerCase();
-      const match = text.includes(searchTerm.toLowerCase());
-      card.style.display = match ? "block" : "none";
-    });
-  }, [searchTerm]);
+ useEffect(() => {
+  const cards = document.querySelectorAll("[data-searchable]");
+  cards.forEach((card) => {
+    const element = card as HTMLElement; // ✅ cast to HTMLElement
+    const text = element.innerText.toLowerCase();
+    const match = text.includes(searchTerm.toLowerCase());
+    element.style.display = match ? "block" : "none";
+  });
+}, [searchTerm]);
 
   return (
     <div className="bg-stone-900 w-screen h-full text-white pt-32">
