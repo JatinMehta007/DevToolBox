@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-
+import { useState, useEffect } from "react";
+import type { ChangeEvent } from "react";
 export const SearchBar = () => {
   const [query, setQuery] = useState("");
 
@@ -10,7 +10,7 @@ export const SearchBar = () => {
     }
   }, [query]);
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
   };
 
@@ -28,35 +28,41 @@ export const SearchBar = () => {
 };
 
 // ✂️ Clear all old highlights
-function removeHighlights() {
+function removeHighlights(): void {
   const highlights = document.querySelectorAll("mark[data-highlight]");
   highlights.forEach((mark) => {
     const parent = mark.parentNode;
-    parent.replaceChild(document.createTextNode(mark.textContent), mark);
-    parent.normalize(); // Merge adjacent text nodes
+    if (parent) {
+      parent.replaceChild(document.createTextNode(mark.textContent ?? ""), mark);
+      parent.normalize(); // Merge adjacent text nodes
+    }
   });
 }
 
 // ✨ Highlight & scroll to first match
-function highlightMatches(query) {
-  const walk = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-  let firstMatchNode = null;
+function highlightMatches(query: string): void {
+  const walk = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+
+  let firstMatchNode: HTMLElement | null = null;
 
   while (walk.nextNode()) {
-    const node = walk.currentNode;
+    const node = walk.currentNode as Text;
+    const parent = node.parentNode as HTMLElement | null;
 
-    // skip script/style/input/mark
     if (
-      node.parentNode.tagName === "SCRIPT" ||
-      node.parentNode.tagName === "STYLE" ||
-      node.parentNode.closest("mark[data-highlight]") ||
-      node.parentNode.tagName === "INPUT"
-    )
+      !parent ||
+      parent.tagName === "SCRIPT" ||
+      parent.tagName === "STYLE" ||
+      parent.closest("mark[data-highlight]") ||
+      parent.tagName === "INPUT"
+    ) {
       continue;
+    }
 
     const text = node.nodeValue;
-    const index = text.toLowerCase().indexOf(query.toLowerCase());
+    if (!text) continue;
 
+    const index = text.toLowerCase().indexOf(query.toLowerCase());
     if (index !== -1) {
       const matchedText = text.substring(index, index + query.length);
       const before = document.createTextNode(text.substring(0, index));
@@ -67,19 +73,16 @@ function highlightMatches(query) {
 
       const after = document.createTextNode(text.substring(index + query.length));
 
-      const parent = node.parentNode;
       parent.replaceChild(after, node);
       parent.insertBefore(match, after);
       parent.insertBefore(before, match);
 
-      // Save the first match to scroll
       if (!firstMatchNode) {
         firstMatchNode = match;
       }
     }
   }
 
-  // 🚀 Scroll to first match
   if (firstMatchNode) {
     firstMatchNode.scrollIntoView({ behavior: "smooth", block: "center" });
   }
