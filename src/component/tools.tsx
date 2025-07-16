@@ -13,7 +13,7 @@ export function Tools() {
       <div className="bg-black h-full  pt-28 space-y-5">
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-blue-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 h-full bg-black w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -42,19 +42,19 @@ export function Tools() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-amber-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-[#36E2E6] relative right-24 w-[600px]">
             <a
               href="https://www.netlify.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black/80">
                 Netlify
               </h2>
-              <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
+              <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-black/80">
                 Deploy any modern frontend stack, from marketing sites to AI apps. Join millions of developers and teams shipping faster on Netlify.
               </p>
-              <p className="text-white/90 font-medium inline-flex items-center mt-5 gap-2">
+              <p className="text-black/80 font-medium inline-flex items-center mt-5 gap-2">
                 Click the image
                 <ArrowRight className="w-4 h-4"></ArrowRight>
               </p>
@@ -72,7 +72,7 @@ export function Tools() {
 
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-blue-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 h-full bg-orange-600 w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -101,7 +101,7 @@ export function Tools() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-amber-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-red-800 relative right-24 w-[600px]">
             <a
               href="https://aiven.io/"
               target="_blank"
@@ -133,7 +133,7 @@ Build freely and securely where you want.
 
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-blue-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 h-full bg-orange-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -162,7 +162,7 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-amber-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-lime-700 relative right-24 w-[600px]">
             <a
               href="https://neon.com/"
               target="_blank"
@@ -191,7 +191,7 @@ Build freely and securely where you want.
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-blue-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 h-full bg-yellow-600 w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -220,7 +220,7 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-amber-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-sky-700 relative right-24 w-[600px]">
             <a
               href="https://favicon.io/"
               target="_blank"
@@ -250,7 +250,7 @@ Build freely and securely where you want.
 
                 <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-blue-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -279,7 +279,7 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-amber-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-purple-600 relative right-24 w-[600px]">
             <a
               href="https://neumorphism.io/#e0e0e0"
               target="_blank"
