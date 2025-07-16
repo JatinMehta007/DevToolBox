@@ -3,6 +3,7 @@
 import { ArrowRight } from "lucide-react";
 import { WobbleCard } from "../ui/cards";
 import { Navbar } from "./navbar";
+import { Footer } from "./Footer";
 
 export function Icons() {
   return (
@@ -225,7 +226,7 @@ All of the icons are free for both personal and commercial use.
               </a>
           </WobbleCard>
         </div>
-
+    <Footer></Footer>
 
       </div>
     </>
