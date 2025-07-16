@@ -4,6 +4,7 @@ import { ArrowRight, Copy, Check } from "lucide-react";
 import { useState } from "react";
 import { WobbleCard } from "../ui/cards";
 import { Navbar } from "./navbar";
+import { Footer } from "./Footer";
 
 type CommandBlock = {
     title : string;
@@ -206,6 +207,7 @@ export function Command() {
             ))}
         
 
+<Footer></Footer>
 </div>
 
     </>
