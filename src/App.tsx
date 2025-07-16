@@ -6,6 +6,7 @@ import { Colors } from "./component/colors";
 import { UI } from "./component/ui";
 import { Tools } from "./component/tools";
 import { Logos } from "./component/logos";
+import { Command } from "./component/command";
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/ui" element={<UI></UI>}></Route>
       <Route path="/tools" element={<Tools></Tools>}></Route>
       <Route path="/logos" element={<Logos></Logos>}></Route>
+      <Route path="/commands" element={<Command></Command>}></Route>
     </Routes>
     </BrowserRouter>
     </>
