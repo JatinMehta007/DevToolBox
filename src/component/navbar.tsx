@@ -1,4 +1,5 @@
 
+import { label } from "motion/react-client";
 import { Link, useLocation } from "react-router-dom"
 
 export const Navbar=()=>{
@@ -13,6 +14,7 @@ export const Navbar=()=>{
         { label: "Colors", to:"/colors"},
         { label: "Tools", to:"/tools"},
         { label: "Logos", to:"/logos"},
+        { label: "Command", to:"/commands"}
     ]
     return(
         <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-20  h-24 flex items-center justify-between  ">
