@@ -265,6 +265,7 @@ export const Dashboard = () => {
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
               <div className=" flex ">
+                
                 <p className="text-3xl pl-20">
                   Coolors
                   <br />
