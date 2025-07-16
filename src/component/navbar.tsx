@@ -1,6 +1,6 @@
 
-import { label } from "motion/react-client";
 import { Link, useLocation } from "react-router-dom"
+import { SearchBar } from "./searchBar";
 
 export const Navbar=()=>{
     const location = useLocation();
@@ -17,10 +17,11 @@ export const Navbar=()=>{
         { label: "Command", to:"/commands"}
     ]
     return(
-        <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-20  h-24 flex items-center justify-between  ">
+        <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-10  h-24 flex items-center   ">
             <p className="text-xl font-black font-p2p text-white">DevToolbox</p>
+            <SearchBar></SearchBar>
             
-            <div className=" flex justify-center items-center gap-3  border p-3 border-gray-500 text-gray-300 bg-stone-800 rounded-2xl">
+            <div className=" flex justify-center ml-auto items-center gap-3  border p-3 border-gray-500 text-gray-300 bg-stone-800 rounded-2xl">
                 {navItems.map((item)=>(
                     <Link
                         key={item.to}
