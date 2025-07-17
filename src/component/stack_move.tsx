@@ -175,5 +175,26 @@ const testimonials = [
 
   {
     quote: <img src="/logos/canva.png" alt="canva" className="w-32" />,
+  },
+
+  {
+    quote: <img src="/logos/chatgpt.webp" alt="canva" className="w-48" />,
+  },
+  {
+    quote: <img src="/logos/gemini.png" alt="canva" className="28" />,
+  },
+
+  {
+    quote: <img src="/logos/copliot.png" alt="canva" className="44" />,
+  },
+
+  {
+    quote: <img src="/logos/cursor.png" alt="canva" className="32" />,
+  },
+  {
+    quote: <img src="/logos/meta.png" alt="canva" className="32" />,
+  },
+  {
+    quote: <img src="/logos/cluade.png" alt="canva" className="32" />,
   }
 ];
