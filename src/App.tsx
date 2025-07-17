@@ -7,6 +7,7 @@ import { UI } from "./component/ui";
 import { Tools } from "./component/tools";
 import { Logos } from "./component/logos";
 import { Command } from "./component/command";
+import { DevAI } from "./component/DevAI";
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route path="/tools" element={<Tools></Tools>}></Route>
       <Route path="/logos" element={<Logos></Logos>}></Route>
       <Route path="/commands" element={<Command></Command>}></Route>
+      <Route path="/ai" element={<DevAI></DevAI>}></Route>
     </Routes>
     </BrowserRouter>
     </>
