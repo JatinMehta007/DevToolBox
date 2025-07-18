@@ -10,7 +10,7 @@ export const Dashboard = () => {
  useEffect(() => {
   const cards = document.querySelectorAll("[data-searchable]");
   cards.forEach((card) => {
-    const element = card as HTMLElement; // ✅ cast to HTMLElement
+    const element = card as HTMLElement; 
     const text = element.innerText.toLowerCase();
     const match = text.includes(searchTerm.toLowerCase());
     element.style.display = match ? "block" : "none";
@@ -20,10 +20,10 @@ export const Dashboard = () => {
   return (
     <div className="bg-stone-900 w-screen h-full text-white pt-32">
       <Navbar></Navbar>
-      <h1 className=" text-center text-7xl tracking-normal leading-tight font-black mt-20 ">
+      <h1 className=" text-center text-3xl p-3 md:p-0 md:text-7xl tracking-normal leading-tight font-black md:mt-20 ">
         Discover Essential Tools for <br /> <span>Frontend Developers</span>
       </h1>
-      <p className="text-lg tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
+      <p className="text-base p-3 md:p-0 md:text-lg tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
         Explore curated UI kits, icon packs, font libraries, color generators,
         and design utilities — all in one place.
       </p>
@@ -36,7 +36,7 @@ export const Dashboard = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="grid bg-neutral-800 divide-solid divide-x divide-sky-400 border-sky-400 border-2 grid-cols-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 divide-solid divide-x divide-sky-400 border-sky-400 border-2 md:grid-cols-2 min-h-fit mt-20 md:m-28 rounded-3xl ">
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
               <div className=" flex ">
@@ -59,12 +59,8 @@ export const Dashboard = () => {
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">css</p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
-            <iframe
-              src="https://tailwindcss.com"
-              title="Tailwind CSS Dashboard"
-              className="w-full h-full"
-            ></iframe>
+          <div className="w-full h-[300px] hidden md:block rounded-br-3xl rounded-tr-3xl overflow-hidden">
+            <img src="./tailwind.png" alt="" />
           </div>
         </div>
       </a>
@@ -290,6 +286,7 @@ export const Dashboard = () => {
       </a>
       {/* <Stack></Stack> */}
       <InfiniteMovingCardsDemo></InfiniteMovingCardsDemo>
+      <hr />
       <Footer></Footer>
     </div>
   );
