@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // Add Press Start 2P for retro ASCII art headers
         p2p: ['"Press Start 2P"', "monospace"],
       },
       keyframes: {
@@ -13,7 +12,7 @@ export default {
             transform: "translateX(0%)",
           },
           "100%": {
-            transform: "translateX(-50%)", // fixed
+            transform: "translateX(-50%)", 
           },
         },
          move: {
