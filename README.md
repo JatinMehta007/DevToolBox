@@ -1,69 +1,45 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">🧰 DevToolbox – Your All-in-One Developer Companion</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+DevToolbox is a beautifully crafted, developer-focused web application designed to centralize essential tools and resources used in daily development. Whether you're looking for tech logos, icons, color palettes, VS Code shortcuts, or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.
+  <br />
+  🚧 Note: This project is actively under development — more features and improvements are being added!
+  <br />
+<a href="https://dev-tool-box-jatin.vercel.app/"><strong>🔗 Live Demo</strong></a> |
+<a href="https://github.com/JatinMehta007/DevToolBox"><strong>🧠 Source Code</strong></a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🎨 **Design Resources** – Access fonts, color palettes, icons, logos, and UI inspiration.
+- 🔧 **Command Center** – Common VSCode, Git, Terminal commands with quick copy support.
+- 🤖 **Dev AI Tools** – A curated collection of AI tools that assist in writing, debugging, and understanding code.
+- 🔍 **Global Search Bar** – Quickly find any tool, logo, or command via a powerful smart search.
+- 📱 **Mobile Friendly** – Fully responsive UI with smooth animations and hamburger menu support.
+- 🧑‍💻 **Developer-Focused UI** – Minimalist, accessible, and cleanly organized for faster navigation.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Frontend**: React.js, Tailwind CSS, TypeScript
+- **Routing**: React Router DOM
+- **Icons**: Lucide Icons, Custom SVGs
+- **Animations**: Aceternity
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Installation & Setup
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Clone the repo
+git clone https://github.com/yourusername/devtoolbox.git
+cd devtoolbox
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
