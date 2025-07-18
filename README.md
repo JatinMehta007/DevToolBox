@@ -35,7 +35,7 @@ DevToolbox is a beautifully crafted, developer-focused web application designed 
 ## 🛠️ Installation & Setup
 
 # Clone the repo
-git clone https://github.com/yourusername/devtoolbox.git
+git clone https://github.com/JatinMehta007/DevToolBox
 cd devtoolbox
 
 # Install dependencies
