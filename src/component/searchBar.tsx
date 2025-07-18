@@ -15,7 +15,7 @@ export const SearchBar = () => {
   };
 
   return (
-    <div className="w-96 max-w-xl px-10">
+    <div className="w-72 md:w-96 max-w-xl px-10">
       <input
         type="text"
         value={query}
