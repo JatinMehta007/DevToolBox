@@ -16,9 +16,9 @@ export function DevAI() {
       <Skeleton></Skeleton>
         </Card>
       </div>
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-gray-950 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-black w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -43,11 +43,11 @@ export function DevAI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-0 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-           <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-blue-800 relative right-24 w-[600px]">
+           <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-blue-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://gemini.google.com/app?hl=en-IN" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Gemini
@@ -71,9 +71,9 @@ export function DevAI() {
 
          </div>
 
-          <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+          <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-purple-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-purple-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -102,7 +102,7 @@ export function DevAI() {
               />
             </a>
           </WobbleCard>
-           <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-blue-700 relative right-24 w-[600px]">
+           <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-blue-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://www.meta.ai/" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Meta
@@ -128,9 +128,9 @@ export function DevAI() {
 
 
 
-          <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+          <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-orange-700 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-orange-700 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -159,7 +159,7 @@ Claude is a next generation AI assistant built by Anthropic and trained to be sa
               />
             </a>
           </WobbleCard>
-           <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-gray-800 relative right-24 w-[600px]">
+           <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-gray-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://cursor.com/" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Cursor
