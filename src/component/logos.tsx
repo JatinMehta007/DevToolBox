@@ -10,10 +10,10 @@ export function Logos() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
 
           <WobbleCard 
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-green-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-green-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
             >
           <a href="https://www.shopify.com/tools/logo-maker" target="_blank" rel="noopener noreferrer">
@@ -40,7 +40,7 @@ export function Logos() {
               />
               </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-purple-700 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-purple-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://www.canva.com/en_in/" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Canva
@@ -64,9 +64,9 @@ export function Logos() {
           </div>
 
 
-          <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+          <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard 
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-[#05195A] w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-[#05195A] w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
             >
           <a href="https://www.ucraft.com/free-logo-maker" target="_blank" rel="noopener noreferrer">
@@ -92,7 +92,7 @@ export function Logos() {
               />
               </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-[#0074DF] relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-[#0074DF] relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://logo.com/" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             logo
@@ -116,9 +116,9 @@ export function Logos() {
           </div>
        
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard 
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-red-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-red-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
             >
           <a href="https://www.brandcrowd.com/" target="_blank" rel="noopener noreferrer">
@@ -144,7 +144,7 @@ export function Logos() {
               />
               </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-blue-900 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-blue-900 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://logomakr.com/" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             LogoMakr
@@ -170,10 +170,10 @@ Create professional logos in minutes!
           </div>
 
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard 
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-[#2AC5B3] w-[75%] min-h-[500px] lg:min-h-[300px]"
-            className=""
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-[#2AC5B3]  w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
+           className=""
             >
           <a href="https://www.designevo.com/" target="_blank" rel="noopener noreferrer">
             <div className="max-w-xs">
@@ -198,7 +198,7 @@ Create professional logos in minutes!
               />
               </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-yellow-700 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-yellow-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://www.fiverr.com/logo-maker" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             fiverr
@@ -222,9 +222,9 @@ Create professional logos in minutes!
           </div>     
 
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard 
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-black w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-black w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
             >
           <a href="https://looka.com/" target="_blank" rel="noopener noreferrer">
@@ -251,7 +251,7 @@ Use Looka's AI-powered platform to design a logo and brand you love.
               />
               </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-gray-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-amber-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a href="https://www.design.com/logo-maker" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Design.com
