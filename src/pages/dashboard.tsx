@@ -36,30 +36,30 @@ export const Dashboard = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="md:grid bg-neutral-800 divide-solid divide-x divide-sky-400 border-sky-400 border-2 md:grid-cols-2 min-h-fit mt-20 md:m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 md:divide-solid m-1   md:divide-x md:divide-sky-400 border-sky-400 border-2 md:grid-cols-2 min-h-fit mt-20 md:m-28 rounded-3xl ">
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5">
                 <div className="">
                   <SiTailwindcss size={44} className="text-sky-400 mx-5 " />
                 </div>
                 <p className="text-3xl">
                   Tailwind CSS
                   <br />
-                  <span className="font-normal   text-gray-400 tracking-wide text-base mt-1">
+                  <span className="font-normal   text-gray-400 md:tracking-wide text-sm md:text-base md:mt-1">
                     Rapidly build modern websites without ever leaving your
-                    HTML.Tailwind is unapologetically modern, and takes
+                    HTML. Tailwind is unapologetically modern, and takes
                     advantage of all the latest and greatest CSS features to
                     make the developer experience as enjoyable as possible.
                   </span>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2  md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">css</p>
             </div>
           </div>
-          <div className="w-full h-[300px] hidden md:block rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./tailwind.png" alt="" />
           </div>
         </div>
@@ -72,10 +72,10 @@ export const Dashboard = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="grid bg-neutral-800 grid-cols-2 border-solid divide-solid divide-gray-400 divide-x border-gray-400 border-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 grid-cols-2 m-1 border-solid md:divide-solid md:divide-gray-400 md:divide-x border-gray-400 border-2 min-h-fit mt-20 md:m-28 rounded-3xl  ">
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5">
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
@@ -95,11 +95,11 @@ export const Dashboard = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">UI</p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./acertinity-ui.png" alt="" />
           </div>
         </div>
@@ -112,10 +112,10 @@ export const Dashboard = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="grid bg-neutral-800 border-solid divide-solid divide-yellow-600 divide-x-2 border-yellow-600 border-2 grid-cols-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 border-solid m-1 md:divide-solid md:divide-yellow-600 md:divide-x-2 border-yellow-600 border-2 grid-cols-2 min-h-fit mt-20 md:m-28 rounded-3xl ">
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5 ">
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
@@ -134,11 +134,11 @@ export const Dashboard = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2 md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">Font</p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./font.png" alt="" />
           </div>
         </div>
@@ -146,10 +146,10 @@ export const Dashboard = () => {
       {/* framer */}
 
       <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
-        <div className="grid bg-neutral-800 border-solid divide-solid divide-pink-400 divide-x-2 border-pink-400 border-2 grid-cols-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 border-solid md:divide-solid md:divide-pink-400 md:divide-x-2 border-pink-400 border-2 grid-cols-2 min-h-fit mt-20 md:m-28 m-1 rounded-3xl ">
           <div className="flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5 ">
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
@@ -168,13 +168,13 @@ export const Dashboard = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 design
               </p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./framer1.png" alt="" />
           </div>
         </div>
@@ -183,10 +183,10 @@ export const Dashboard = () => {
       {/* // upsplash */}
 
       <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
-        <div className="grid bg-neutral-800 border-solid divide-solid divide-gray-400 divide-x-2 border-gray-400 border-2 grid-cols-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 border-solid divide-solid divide-gray-400 divide-x-2 border-gray-400 border-2 grid-cols-2 min-h-fit mt-20 m-1 md:m-28 rounded-3xl ">
           <div className="flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5">
                 <div className="">
                   {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
@@ -206,13 +206,13 @@ export const Dashboard = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2 md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 images
               </p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./image.png" alt="" />
           </div>
         </div>
@@ -221,10 +221,10 @@ export const Dashboard = () => {
       {/* ICONS */}
 
       <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">
-        <div className="grid bg-neutral-800 border-solid divide-solid divide-green-400 divide-x-2 border-green-400 border-2 grid-cols-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 border-solid md:divide-solid md:divide-green-400 md:divide-x-2 border-green-400 border-2 grid-cols-2 min-h-fit mt-20 md:m-28 rounded-3xl ">
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5">
                 <div className="">
                   <img
                     src="https://goodies.icons8.com/web/common/header/logo/logo-icons8.svg"
@@ -242,13 +242,13 @@ export const Dashboard = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 icons
               </p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./icons.png" alt="" />
           </div>
         </div>
@@ -257,10 +257,10 @@ export const Dashboard = () => {
       {/* color pallete */}
 
       <a href="https://coolors.co/" target="_blank" rel="noopener noreferrer">
-        <div className="grid bg-neutral-800 border-solid divide-solid divide-blue-400 divide-x-2 border-blue-400 border-2 grid-cols-2 min-h-fit mt-20 m-28 rounded-3xl ">
+        <div className="md:grid bg-neutral-800 border-solid md:divide-solid md:divide-blue-400 md:divide-x-2 border-blue-400 border-2 grid-cols-2 min-h-fit m-1 mt-20 md:m-28 rounded-3xl ">
           <div className="  flex items-center ">
             <div className=" font-semibold flex ">
-              <div className=" flex ">
+              <div className=" flex py-5">
                 
                 <p className="text-3xl pl-20">
                   Coolors
@@ -273,13 +273,13 @@ export const Dashboard = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 md:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 color
               </p>
             </div>
           </div>
-          <div className="w-full h-[300px] rounded-br-3xl rounded-tr-3xl overflow-hidden">
+          <div className="w-full md:h-[300px]  rounded-b-3xl md:rounded-br-3xl md:rounded-tr-3xl overflow-hidden">
             <img src="./color.png" alt="" />
           </div>
         </div>
