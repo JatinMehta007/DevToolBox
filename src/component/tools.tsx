@@ -11,9 +11,9 @@ export function Tools() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-black w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-black w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -42,11 +42,11 @@ export function Tools() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-[#36E2E6] relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0  bg-[#36E2E6] relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a
               href="https://www.netlify.com/"
               target="_blank"
-              rel="noopener noreferrer"
+    rel="noopener noreferrer"
             >
               <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black/80">
                 Netlify
@@ -63,16 +63,16 @@ export function Tools() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-20 lg:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
         </div>
 
 
-            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-orange-600 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-orange-600 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -101,7 +101,7 @@ export function Tools() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-red-800 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-red-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a
               href="https://aiven.io/"
               target="_blank"
@@ -131,9 +131,9 @@ Build freely and securely where you want.
 
 
 
-            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-orange-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-orange-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -162,7 +162,7 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-lime-700 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-lime-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a
               href="https://neon.com/"
               target="_blank"
@@ -189,9 +189,9 @@ Build freely and securely where you want.
           </WobbleCard>
         </div>
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-yellow-600 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-yellow-600 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -220,7 +220,7 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-sky-700 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-sky-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a
               href="https://favicon.io/"
               target="_blank"
@@ -248,9 +248,9 @@ Build freely and securely where you want.
         </div>
 
 
-                <div className="grid grid-cols-1  lg:grid-cols-3 gap-4  mx-auto  relative right-14">
+                <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-pink-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -279,7 +279,7 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-purple-600 relative right-24 w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-purple-600 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
             <a
               href="https://neumorphism.io/#e0e0e0"
               target="_blank"
@@ -300,7 +300,7 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-20 lg:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
