@@ -22,7 +22,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-7 md:px-10  h-24 flex items-center   ">
+    <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-5 md:px-10  h-24 flex justify-between items-center  overflow-hidden ">
       <img src="./logo1.png" alt="" width={50} className="relative md:bottom-1" />
       <p
         onClick={() => {
@@ -32,7 +32,7 @@ export const Navbar = () => {
       >
         DevToolbox
       </p>
-      <div className="w-20">
+      <div className="w-20 ">
         <SearchBar ></SearchBar>
       </div>
 
