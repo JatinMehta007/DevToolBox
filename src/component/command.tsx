@@ -152,14 +152,14 @@ export function Command() {
   return (
     <>
       <Navbar />
-      <div className="bg-black  min-h-screen pt-28 space-y-5 pb-10">
+      <div className="bg-black min-h-screen pt-28 space-y-5 pb-10">
             {blocks.map((block,blockIndex)=>(
           <WobbleCard
-            containerClassName={`grid  ${bgColors[blockIndex % bgColors.length]} w-[80%]`}
+            containerClassName={`grid  ${bgColors[blockIndex % bgColors.length]} w-[90%] md:w-[80%] `}
             className=""
           >
                 <div key={blockIndex} className="max-w-xs">
-              <h2 className="text-left text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="text-left text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 {block.Name}
               </h2>
               <p className="mt-4 text-left text-neutral-200">
@@ -171,7 +171,7 @@ export function Command() {
               </p>
             </div>
 
-            <div className="absolute right-0 top-0 m-6 w-[700px] flex flex-col  gap-4">
+            <div className="md:absolute right-0 md:top-0 m-6 md:w-[700px] flex flex-col  gap-4">
             {block.commands.map((cmd, cmdIndex) => {
                 const id = `${blockIndex}-${cmdIndex}`;
                 return (
