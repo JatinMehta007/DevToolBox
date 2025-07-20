@@ -20,7 +20,7 @@ export const Dashboard = () => {
   return (
     <div className="bg-stone-900 w-screen h-full text-white pt-32">
       <Navbar></Navbar>
-      <h1 className=" text-center text-3xl p-3 md:p-0 md:text-7xl tracking-normal leading-tight font-black md:mt-20 ">
+      <h1 className=" text-center text-3xl sm:text-5xl p-3 md:p-0 md:text-7xl tracking-normal leading-tight font-black md:mt-20 ">
         Discover Essential Tools for <br /> <span>Frontend Developers</span>
       </h1>
       <p className="text-base p-3 md:p-0 md:text-lg tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
