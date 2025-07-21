@@ -34,7 +34,7 @@ export const Navbar = () => {
         DevToolbox
       </p>
         
-      <div className="w-20 flex-1 flex justify-center md:ml-10 ">
+      <div className="w-20 flex-1 lg:hidden  flex xl:flex justify-center md:ml-10 ">
         <SearchBar ></SearchBar>
       </div>
 
