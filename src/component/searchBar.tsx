@@ -15,13 +15,13 @@ export const SearchBar = () => {
   };
 
   return (
-    <div className="w-full  lg:hidden px-10">
+    <div className="w-full   xl:block px-10">
       <input
         type="text"
         value={query}
         onChange={handleChange}
         placeholder="Search anything..."
-        className="w-full px-4 py-2 border-2 rounded-2xl bg-neutral-800 text-white border-x-2 border-double border-blue-300"
+        className="w-full lg:w-96 xl:w-full px-4 py-2 border-2 rounded-2xl bg-neutral-800 text-white border-x-2 border-double border-blue-300"
       />
     </div>
   );
