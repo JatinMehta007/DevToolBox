@@ -23,23 +23,23 @@ export const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-5 md:px-10  h-24 flex  items-center   ">
-      <div>
+      
       <img src="./logo1.png" alt="" width={50} className="relative md:bottom-1" />
       <p
         onClick={() => {
           navigate("/");
         }}
-        className="text-xl cursor-pointer font-black font-p2p text-white pl-2 hidden md:block"
+        className=" lg:text-xl cursor-pointer font-black font-p2p text-white pl-2 hidden md:block"
         >
         DevToolbox
       </p>
-        </div>
+        
       <div className="w-20 flex-1 flex justify-center md:ml-10 ">
         <SearchBar ></SearchBar>
       </div>
 
       {/* Desktop nav */}
-      <div className="  justify-center ml-auto items-center gap-3  border p-3 border-gray-500 text-gray-300 bg-stone-800 rounded-2xl hidden md:flex">
+      <div className="  justify-center ml-auto items-center gap-3  border p-3 border-gray-500 text-gray-300 bg-stone-800 rounded-2xl hidden lg:flex">
         {navItems.map((item) => (
           <Link
             key={item.to}
@@ -56,7 +56,7 @@ export const Navbar = () => {
       </div>
 
       {/* {Mobile view} */}
-      <div className="md:hidden ml-auto">
+      <div className="lg:hidden ml-auto">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="text-white transition-transform duration-200"
@@ -66,7 +66,7 @@ export const Navbar = () => {
       </div>
 
       {isOpen && (
-      <div className="absolute top-24 left-0 w-full bg-stone-800 px-6 py-4 z-50 md:hidden flex flex-col gap-2">
+      <div className="absolute top-24 left-0 w-full bg-stone-800 px-6 py-4 z-50 lg:hidden flex flex-col gap-2">
           {navItems.map((item) => (
             <Link
               key={item.to}
