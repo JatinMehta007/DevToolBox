@@ -3,6 +3,8 @@ import { Navbar } from "../component/navbar";
 import { InfiniteMovingCardsDemo } from "../component/stack_move";
 import { useEffect, useState } from "react";
 import { Footer } from "../component/Footer";
+import { ArrowDown, ArrowRight } from "lucide-react";
+import { SearchBar } from "../component/searchBar";
 
 export const Dashboard = () => {
    const [searchTerm] = useState("");
@@ -27,7 +29,9 @@ export const Dashboard = () => {
         Explore curated UI kits, icon packs, font libraries, color generators,
         and design utilities — all in one place.
       </p>
-
+      <div className="hidden lg:block xl:hidden mx-auto w-96 ">
+      <SearchBar></SearchBar>
+      </div>
 
       
       {/* // TAILWINDCSS */}
@@ -52,10 +56,14 @@ export const Dashboard = () => {
                     advantage of all the latest and greatest CSS features to
                     make the developer experience as enjoyable as possible.
                   </span>
+                 <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2  xl:m-10">
+            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2  lg:m-5 xl:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">css</p>
             </div>
           </div>
@@ -92,10 +100,14 @@ export const Dashboard = () => {
                     trending components and use them in your websites without
                     having to worry about styling and animations.
                   </span>
+                    <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 xl:m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 lg:m-5 xl:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">UI</p>
             </div>
           </div>
@@ -129,12 +141,17 @@ export const Dashboard = () => {
                   <br />
                   <span className="font-normal   text-gray-400 tracking-wide text-sm  md:text-base mt-1">
                     Create stunning typography, generate CSS, and find
+                    development teams build great products, together. Redesign how you design. Explore your ideas freely and iterate quickly.
                     inspiration. What are you waiting for?
                   </span>
+                    <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2 xl:m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 lg:m-5 xl:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">Font</p>
             </div>
           </div>
@@ -163,12 +180,16 @@ export const Dashboard = () => {
                   <br />
                   <span className="font-normal   text-gray-400 tracking-wide text-sm  md:text-base mt-1">
                     Think bigger. Build faster. Figma helps design and
-                    development teams build great products, together.
+                    development teams build great products, together. Redesign how you design. Explore your ideas freely and iterate quickly.
                   </span>
+                    <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 xl:m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2  lg:m-5 xl:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 design
               </p>
@@ -203,10 +224,14 @@ export const Dashboard = () => {
                     for personal or commercial projects. The internet’s source
                     for visuals. Powered by creators everywhere.
                   </span>
+                    <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2 xl:m-10">
+            <div className="self-end  uppercase rounded-2xl  mr-3 mb-2 lg:m-5 xl:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 images
               </p>
@@ -239,10 +264,14 @@ export const Dashboard = () => {
                     Original stock graphics by our team, plus design apps and AI
                     tools. The ultimate design kit for creatives and developers
                   </span>
+                    <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 xl:m-10">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 lg:m-5 xl:m-10">
               <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
                 icons
               </p>
@@ -270,11 +299,15 @@ export const Dashboard = () => {
                     pallete or get inspired by thousands of beautifull color
                     schemes.
                   </span>
+                    <p className="text-white/90 xl:hidden text-sm font-medium flex items-center mt-5 gap-2">
+          Click the image
+          <ArrowDown className="w-4 h-4"></ArrowDown>
+        </p>
                 </p>
               </div>
             </div>
-            <div className="self-end  uppercase rounded-2xl mr-3 mb-2 xl:m-10">
-              <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">
+            <div className="self-end  uppercase rounded-2xl mr-3 mb-2  lg:m-5 xl:m-10">
+              <p className="bg-neutral-600 p-2 rounded-xl px-3  text-sm">
                 color
               </p>
             </div>
