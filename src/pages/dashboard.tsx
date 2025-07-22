@@ -3,7 +3,7 @@ import { Navbar } from "../component/navbar";
 import { InfiniteMovingCardsDemo } from "../component/stack_move";
 import { useEffect, useState } from "react";
 import { Footer } from "../component/Footer";
-import { ArrowDown, ArrowRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { SearchBar } from "../component/searchBar";
 
 export const Dashboard = () => {
