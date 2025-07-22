@@ -159,7 +159,7 @@ export function Command() {
             className=""
           >
                 <div key={blockIndex} className="max-w-xs">
-              <h2 className="text-left text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="text-left text-xl md:text-3xl font-semibold tracking-[-0.015em] text-white">
                 {block.Name}
               </h2>
               <p className="mt-4 text-left text-neutral-200">
@@ -171,7 +171,7 @@ export function Command() {
               </p>
             </div>
 
-            <div className="md:absolute right-0 md:top-0 m-6 md:w-[700px] flex flex-col  gap-4">
+            <div className="lg:absolute right-0 lg:top-0 m-6 lg:w-[53%] xl:w-[62%] flex flex-col  gap-4">
             {block.commands.map((cmd, cmdIndex) => {
                 const id = `${blockIndex}-${cmdIndex}`;
                 return (
