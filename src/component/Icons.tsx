@@ -10,9 +10,9 @@ export function Icons() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-pink-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -21,7 +21,7 @@ export function Icons() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Heroicons
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -43,13 +43,13 @@ export function Icons() {
             </a>
           </WobbleCard>
 
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-amber-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-amber-800 relative w-full p-3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://icons.getbootstrap.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Bootstrap
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -74,9 +74,9 @@ export function Icons() {
 
 
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-yellow-600 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-yellow-600 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -85,7 +85,7 @@ export function Icons() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Font Awesome
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -106,9 +106,9 @@ export function Icons() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-green-700 md:border-0 bg-green-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-green-700 lg:border-0 bg-green-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a href="" target="_blank" rel="noopener noreferrer">
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Icons8
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -130,9 +130,9 @@ export function Icons() {
           </WobbleCard>
         </div>
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14 ">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14 ">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-indigo-700 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-indigo-700 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -141,7 +141,7 @@ export function Icons() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Phosphor Icons
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -162,13 +162,13 @@ export function Icons() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-amber-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-amber-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://remixicon.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Remix Icon
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -191,9 +191,9 @@ export function Icons() {
           </WobbleCard>
         </div>
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-blue-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-blue-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -202,7 +202,7 @@ export function Icons() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Tabler Icons
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -223,13 +223,13 @@ export function Icons() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-red-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-red-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://lucide.dev/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Lucide
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
