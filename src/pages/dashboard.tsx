@@ -40,12 +40,12 @@ export const Dashboard = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="xl:grid bg-neutral-800 xl:divide-solid m-10   xl:divide-x xl:divide-sky-400 border-sky-400 border-2 xl:grid-cols-2 min-h-fit mt-20 xl:m-28 rounded-3xl ">
-          <div className="  flex items-center ">
-            <div className=" font-semibold flex ">
+        <div className="xl:grid bg-neutral-800 xl:divide-solid m-10 xl:divide-x xl:divide-sky-400 border-sky-400 border-2 xl:grid-cols-2 min-h-fit mt-20 xl:m-28 rounded-3xl ">
+          <div className="flex items-center ">
+            <div className="font-semibold flex ">
               <div className=" flex py-5 md:py-10 xl:py-5">
                 <div className="">
-                  <SiTailwindcss size={44} className="text-sky-400 mx-5 " />
+                  <SiTailwindcss size={44} className="text-sky-400  mx-5 " />
                 </div>
                 <p className="text-3xl">
                   Tailwind CSS
@@ -64,7 +64,7 @@ export const Dashboard = () => {
               </div>
             </div>
             <div className="self-end  uppercase rounded-2xl  mr-3 mb-2  lg:m-5 xl:m-10">
-              <p className="bg-neutral-600 p-2 rounded-xl px-3 text-sm">css</p>
+              <p className="bg-neutral-600 p-2 rounded-xl md:px-3 text-sm">css</p>
             </div>
           </div>
           <div className="w-full xl:h-[300px]  rounded-b-3xl xl:rounded-b-none xl:rounded-br-3xl xl:rounded-tr-3xl overflow-hidden">
