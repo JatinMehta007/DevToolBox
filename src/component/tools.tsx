@@ -11,9 +11,9 @@ export function Tools() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-black w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -22,7 +22,7 @@ export function Tools() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Vercel
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -42,7 +42,7 @@ export function Tools() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0  bg-[#36E2E6] relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0  bg-[#36E2E6] relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://www.netlify.com/"
               target="_blank"
@@ -70,9 +70,9 @@ export function Tools() {
         </div>
 
 
-            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-orange-600 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-orange-600 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -81,7 +81,7 @@ export function Tools() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Cloudflare
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -101,13 +101,13 @@ export function Tools() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-red-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-red-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://aiven.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Avien
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -131,9 +131,9 @@ Build freely and securely where you want.
 
 
 
-            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-orange-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-orange-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -142,7 +142,7 @@ Build freely and securely where you want.
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Postman
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -162,13 +162,13 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-lime-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-lime-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://neon.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Neon
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -189,9 +189,9 @@ Build freely and securely where you want.
           </WobbleCard>
         </div>
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-yellow-600 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-yellow-600 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -200,7 +200,7 @@ Build freely and securely where you want.
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Remove
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -220,13 +220,13 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-sky-700 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-sky-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://favicon.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Favicon
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -248,9 +248,9 @@ Build freely and securely where you want.
         </div>
 
 
-                <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+                <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-pink-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -259,7 +259,7 @@ Build freely and securely where you want.
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   CSS Gradient
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -279,13 +279,13 @@ Build freely and securely where you want.
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-purple-600 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-purple-600 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://neumorphism.io/#e0e0e0"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Neumorphism.io
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
