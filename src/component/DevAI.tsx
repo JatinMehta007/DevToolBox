@@ -47,7 +47,7 @@ export function DevAI() {
               />
             </a>
           </WobbleCard>
-           <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-blue-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+           <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-blue-800 relative w-full p-3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a href="https://gemini.google.com/app?hl=en-IN" target="_blank" rel="noopener noreferrer">
             <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Gemini
