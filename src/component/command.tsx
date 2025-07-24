@@ -155,7 +155,7 @@ export function Command() {
       <div className="bg-black min-h-screen pt-28 space-y-5 pb-10">
             {blocks.map((block,blockIndex)=>(
           <WobbleCard
-            containerClassName={`grid  ${bgColors[blockIndex % bgColors.length]} w-[90%] md:w-[80%] `}
+            containerClassName={`grid  ${bgColors[blockIndex % bgColors.length]} w-[90%] md:w-[80%] p-3 lg:p-0 `}
             className=""
           >
                 <div key={blockIndex} className="max-w-xs">
