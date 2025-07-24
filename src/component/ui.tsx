@@ -10,9 +10,9 @@ export function UI() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14 2xl:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -24,7 +24,7 @@ export function UI() {
                 <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Aceternity UI
                 </h2>
-                <p className="mt-4 text-left  text-base/6 text-neutral-200">
+                <p className="mt-4 text-left  text-base/6 text-neutral-200 lg:w-[50%]">
                   Copy paste the most trending components and use them in your
                   websites without having to worry about styling and animations.
                 </p>
@@ -38,11 +38,11 @@ export function UI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-28 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-orange-700 lg:border-0 bg-orange-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-orange-700 lg:border-0 bg-orange-700 relative w-full p-3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://ui.shadcn.com/"
               target="_blank"
@@ -64,7 +64,7 @@ export function UI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4  lg:-right-[40%] grayscale filter -bottom-16 md:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -73,7 +73,7 @@ export function UI() {
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] bg-blue-700"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px] bg-blue-700"
             className=""
           >
             <a
@@ -99,11 +99,11 @@ export function UI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[40%] xl:-right-[30%] grayscale filter lg:-bottom-24 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-purple-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-purple-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://uiverse.io/"
               target="_blank"
@@ -125,7 +125,7 @@ export function UI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4  lg:-right-[40%] grayscale filter -bottom-16 md:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -133,7 +133,7 @@ export function UI() {
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-green-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-green-800 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -159,11 +159,11 @@ export function UI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-40 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-orange-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-orange-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://merakiui.com/"
               target="_blank"
@@ -185,7 +185,7 @@ export function UI() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
