@@ -10,9 +10,9 @@ export function UI() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-black w-full md:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -21,7 +21,7 @@ export function UI() {
               rel="noopener noreferrer"
             >
               <div className="">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Aceternity UI
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -42,13 +42,13 @@ export function UI() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-amber-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-orange-700 lg:border-0 bg-orange-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://ui.shadcn.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Shadcn UI
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -71,9 +71,9 @@ export function UI() {
         </div>
 
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 md:border-0  p-3 md:p-0 h-full bg-blue-800 w-full md:w-[75%] min-h-[440px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] bg-blue-700"
             className=""
           >
             <a
@@ -82,7 +82,7 @@ export function UI() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Flowbite UI
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -103,13 +103,13 @@ export function UI() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="ol-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-violet-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-purple-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://uiverse.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 UIverse
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
@@ -131,9 +131,9 @@ export function UI() {
           </WobbleCard>
         </div>
 
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative p-1 md:right-14">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-green-900 md:border-0  p-3 md:p-0 h-full bg-green-800 w-full md:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-green-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -142,7 +142,7 @@ export function UI() {
               rel="noopener noreferrer"
             >
               <div className="max-w-xs">
-                <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   HyperUI
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -163,13 +163,13 @@ export function UI() {
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 md:border-0 bg-amber-800 relative w-full -3 md:p-0 md:right-24 md:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-orange-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
             <a
               href="https://merakiui.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="max-w-96  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 MerakiUI
               </h2>
               <p className="mt-4 max-w-[18rem] text-left  text-base/6 text-neutral-200">
