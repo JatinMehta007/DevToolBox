@@ -13,7 +13,7 @@ export function Tools() {
       <div className="bg-black h-full  pt-28 space-y-5">
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -38,11 +38,11 @@ export function Tools() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-32 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0  bg-[#36E2E6] relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0  bg-[#36E2E6] relative w-full lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://www.netlify.com/"
               target="_blank"
@@ -63,7 +63,7 @@ export function Tools() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-20 lg:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -72,7 +72,7 @@ export function Tools() {
 
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-orange-600 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-orange-600 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -97,11 +97,11 @@ export function Tools() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-32 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-red-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-red-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://aiven.io/"
               target="_blank"
@@ -123,7 +123,7 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -133,7 +133,7 @@ Build freely and securely where you want.
 
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-orange-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-orange-800 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -158,11 +158,11 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-32 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-lime-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-lime-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://neon.com/"
               target="_blank"
@@ -183,7 +183,7 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -191,7 +191,7 @@ Build freely and securely where you want.
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-yellow-600 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-yellow-600 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -216,11 +216,11 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-32 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-sky-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-sky-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://favicon.io/"
               target="_blank"
@@ -241,7 +241,7 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -250,7 +250,7 @@ Build freely and securely where you want.
 
                 <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px] "
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px] "
             className=""
           >
             <a
@@ -275,11 +275,11 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-32 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-purple-600 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-purple-600 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://neumorphism.io/#e0e0e0"
               target="_blank"
@@ -300,7 +300,7 @@ Build freely and securely where you want.
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-20 lg:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[60%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
