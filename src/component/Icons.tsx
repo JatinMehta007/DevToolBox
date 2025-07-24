@@ -12,7 +12,7 @@ export function Icons() {
       <div className="bg-black h-full  pt-28 space-y-5">
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -38,12 +38,12 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-28 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
 
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-amber-800 relative w-full p-3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] md:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-amber-800 relative w-full p-3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://icons.getbootstrap.com/"
               target="_blank"
@@ -66,7 +66,7 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4  lg:-right-[40%] grayscale filter -bottom-16 md:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[40%] xl:-right-[40%] grayscale filter lg:-bottom-36 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -76,7 +76,7 @@ export function Icons() {
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-yellow-600 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-yellow-600 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -102,11 +102,11 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-36 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-green-700 lg:border-0 bg-green-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-green-700 lg:border-0 bg-green-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a href="" target="_blank" rel="noopener noreferrer">
               <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Icons8
@@ -124,7 +124,7 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[40%] xl:-right-[40%] grayscale filter lg:-bottom-32 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -132,7 +132,7 @@ export function Icons() {
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14 ">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-indigo-700 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-indigo-700 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -158,11 +158,11 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-28 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-amber-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-amber-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://remixicon.com/"
               target="_blank"
@@ -185,7 +185,7 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4  lg:-right-[40%] grayscale filter -bottom-16 md:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[40%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
@@ -193,7 +193,7 @@ export function Icons() {
 
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
-            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-blue-800 w-full lg:w-[75%] min-h-[500px] lg:min-h-[300px]"
+            containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-blue-800 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
           >
             <a
@@ -219,11 +219,11 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[30%] grayscale filter -bottom-2 md:-bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4 lg:-right-[45%] xl:-right-[30%] grayscale filter lg:-bottom-32 xl:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
-          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-red-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[600px]">
+          <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-gray-700 lg:border-0 bg-red-800 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
             <a
               href="https://lucide.dev/"
               target="_blank"
@@ -244,7 +244,7 @@ export function Icons() {
                 width={500}
                 height={500}
                 alt="linear demo image"
-                className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                className="absolute -right-4  lg:-right-[40%] xl:-right-[40%] grayscale filter lg:-bottom-28 xl:-bottom-16 md:-bottom-10 object-contain rounded-2xl"
               />
             </a>
           </WobbleCard>
