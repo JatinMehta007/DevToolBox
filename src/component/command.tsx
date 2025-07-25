@@ -66,6 +66,32 @@ export function Command() {
                 }
             ]
         },
+        {
+            Name : "Github",
+            description : "GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code.It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.",
+            commands : [
+                {
+                    title:"Git commands",
+                    lines : [
+                        "git init",
+                        "git add .",
+                        "git commit -m 'first commit'",
+                        "git branch -M main",
+                        "git remote add origin https://github.com/your-username/your-repo.git",
+                        "git push -u -f origin main ",
+                        
+                    ],
+                },
+                {
+                    title: "you’ve already cloned the repo",
+                    lines : [
+                        "git add .",
+                        "git commit -m 'Your commit message'",
+                        "git push"
+                    ]
+                }
+            ]
+        },
          {
             Name : "Vue.js",
             description:"The Progressive JavaScript Framework An approachable, performant and versatile framework for building web user interfaces.",
@@ -143,6 +169,7 @@ export function Command() {
     "bg-sky-700",
     "bg-gray-900",
     "bg-yellow-600",
+    "bg-black",
     "bg-green-800",
     "bg-blue-800",
     "bg-green-900",
@@ -153,6 +180,12 @@ export function Command() {
     <>
       <Navbar />
       <div className="bg-black min-h-screen pt-28 space-y-5 pb-10">
+                <h1 className=" text-center text-3xl sm:text-5xl p-3 xl:p-0 xl:text-7xl tracking-normal leading-tight font-black xl:mt-12 text-white ">
+          Useful Terminal Commands for<br /> <span> Developers</span>
+      </h1>
+      <p className="text-base md:text-xl p-3 xl:p-0 xl:text-xl tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
+          Find essential terminal commands for Git, Docker, Node, and more. A quick reference guide for productive development.
+      </p>
             {blocks.map((block,blockIndex)=>(
           <WobbleCard
             containerClassName={`grid  ${bgColors[blockIndex % bgColors.length]} w-[90%] md:w-[80%] p-3 lg:p-0 `}
