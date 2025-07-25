@@ -5,7 +5,8 @@ const sitemap = new SitemapStream({ hostname: 'https://dev-tool-box-jatin.vercel
 const writeStream = createWriteStream('./public/sitemap.xml');
 
 // List your routes here
-const routes = ['/',
+const routes = [
+  '/',
   '/icons',
   '/fonts',
   '/colors',
@@ -13,13 +14,14 @@ const routes = ['/',
   '/tools',
   '/logos',
   '/commands',
-  '/ai',];
+  '/ai',
+];
 
 routes.forEach((url) => sitemap.write({ url }));
 sitemap.end();
 
-streamToPromise(sitemap).then((sm) => {
-  writeStream.write(sm.toString());
-  writeStream.end();
+sitemap.pipe(writeStream);
+
+streamToPromise(sitemap).then(() => {
   console.log(' Sitemap successfully generated at /public/sitemap.xml');
 });
