@@ -10,7 +10,13 @@ export function UI() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
-        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14 2xl:right-14">
+         <h1 className=" text-center text-3xl sm:text-5xl p-3 xl:p-0 xl:text-7xl tracking-normal leading-tight font-black xl:mt-12 text-white ">
+        Ready-to-Use UI Elements <br /> <span>for Developers</span>
+      </h1>
+      <p className="text-base md:text-xl p-3 xl:p-0 xl:text-xl tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
+        Explore a collection of UI elements like buttons, cards, and layouts built with Tailwind and ShadCN — ideal for modern web development.
+      </p>
+        <div className="grid grid-cols-1   lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14 2xl:right-14">
           <WobbleCard
             containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-black w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
             className=""
