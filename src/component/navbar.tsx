@@ -24,7 +24,9 @@ export const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-stone-900 px-5 md:px-10  h-24 flex  items-center   ">
       
-      <img src="./logo1.png" alt="" width={50} className="relative md:bottom-1" />
+      <img  onClick={() => {
+          navigate("/");
+        }} src="./logo1.png" alt="" width={50} className="relative md:bottom-1 cursor-pointer" />
       <p
         onClick={() => {
           navigate("/");
