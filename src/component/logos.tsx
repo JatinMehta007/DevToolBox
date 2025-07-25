@@ -10,6 +10,12 @@ export function Logos() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
+        <h1 className=" text-center text-3xl sm:text-5xl p-3 xl:p-0 xl:text-7xl tracking-normal leading-tight font-black xl:mt-12 text-white ">
+           Free Tech & Brand Logos for <br /> <span>Developer Projects</span>
+      </h1>
+      <p className="text-base md:text-xl p-3 xl:p-0 xl:text-xl tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
+          Download SVG logos of popular brands and tools. Use them in your personal or professional developer projects
+      </p>
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
 
           <WobbleCard 
