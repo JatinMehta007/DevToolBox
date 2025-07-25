@@ -11,13 +11,18 @@ export const Footer = () => {
                 <p  className="md:pl-[52px] pl-[10px] mt-1 text-xs sm:text-sm">Build in public <a href="https://twitter.com/JatinMehta35630"><span className="text-blue-400">@JatinMehta35630</span></a></p>
 
             </div>
-             <div className="ml-auto relative md:right-32 md:mt-5 lg:mt-0 lg:right-44 right-10 ">
-            <a href="https://github.com/JatinMehta007" target="_blank" rel="noopener noreferrer">
-            <img src="./footer/github.png" alt="github-icon" className="xl:h-10 h-8 md:mt-8 lg:mt-10 mt-6 ml-2 md:ml-0" />
+             <div className="ml-auto relative  md:right-20 md:mt-5 lg:mt-0 lg:right-44 right-10 ">
+            <a href="https://twitter.com/JatinMehta35630" target="_blank" rel="noopener noreferrer">
+            <img src="./footer/twitter.png" alt="twitter-icon" className="xl:h-10 h-8 md:mt-8 lg:mt-10 mt-6 ml-2 md:ml-0" />
             </a>
+            <div className="md:flex">
             <a href="https://www.linkedin.com/in/jatin-mehta-a70a0025a/" target="_blank" rel="noopener noreferre">
-            <img src="./footer/linkedin.png" alt="github-icon" className="xl:h-10 h-8 md:mt-8 lg:mt-10 mt-3 ml-2 md:ml-0" />
+            <img src="./footer/linkedin.png" alt="github-icon" className="xl:h-10 h-8 md:mt-8 lg:mt-5 mt-3 ml-2 md:ml-0 relative md:-left-9"  />
             </a>
+            <a href="https://github.com/JatinMehta007" target="_blank" rel="noopener noreferre">
+            <img src="./footer/github.png" alt="github-icon" className="xl:h-10 mb-5 h-8 md:mt-8 lg:mt-5 mt-3 ml-2 md:ml-0" />
+            </a>
+            </div>
           </div>
         </div>
     )
