@@ -10,6 +10,12 @@ export function Colors() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
+          <h1 className=" text-center text-3xl sm:text-5xl p-3 xl:p-0 xl:text-7xl tracking-normal leading-tight font-black xl:mt-12 text-white ">
+           Color Palettes for Web & <br /> <span>UI Design</span>
+      </h1>
+      <p className="text-base md:text-xl p-3 xl:p-0 xl:text-xl tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
+          Get beautifully crafted color palettes and themes for modern websites and UI components. Great for Tailwind and CSS usage.
+      </p>
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
 
           <WobbleCard 
