@@ -30,16 +30,3 @@ DevToolbox is a beautifully crafted, developer-focused web application designed 
 - **Icons**: Lucide Icons, Custom SVGs
 - **Animations**: Aceternity
 
----
-
-## 🛠️ Installation & Setup
-
-# Clone the repo
-git clone https://github.com/JatinMehta007/DevToolBox
-cd devtoolbox
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
