@@ -1,7 +1,7 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { createWriteStream } from 'fs';
 
-const sitemap = new SitemapStream({ hostname: 'https://dev-tool-box-jatin.vercel.app/' });
+const sitemap = new SitemapStream({ hostname: 'https://dev-tool-box-jatin.vercel.app' });
 const writeStream = createWriteStream('./public/sitemap.xml');
 
 // List your routes here
