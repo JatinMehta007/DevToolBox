@@ -10,6 +10,12 @@ export function Icons() {
     <>
       <Navbar></Navbar>
       <div className="bg-black h-full  pt-28 space-y-5">
+                 <h1 className=" text-center text-3xl sm:text-5xl p-3 xl:p-0 xl:text-7xl tracking-normal leading-tight font-black xl:mt-12 text-white ">
+Free & Open Source Icon Packs – <br /> <span>Lucide, Heroicons</span>
+      </h1>
+      <p className="text-base md:text-xl p-3 xl:p-0 xl:text-xl tracking-wide text-gray-300 text-center mt-1 max-w-2xl mx-auto">
+         Browse developer-friendly icon libraries like Icons8, Tabler, Bootstrap, and more. Easily copy and use in your React or HTML projects.
+      </p>
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 mx-auto  relative px-1 sm:px-10 md:px-20 lg:px-0 lg:right-14">
           <WobbleCard
             containerClassName="col-span-1 lg:col-span-2 border border-gray-700 lg:border-0  p-3 lg:p-0 h-full bg-pink-800 w-full lg:w-[70%] xl:w-[75%] min-h-[500px] lg:min-h-[300px]"
@@ -107,7 +113,7 @@ export function Icons() {
             </a>
           </WobbleCard>
           <WobbleCard containerClassName="col-span-1 min-h-[450px] lg:min-h-[300px] p-3 border border-green-700 lg:border-0 bg-green-700 relative w-full -3 lg:p-0 lg:right-24 lg:w-[480px] xl:w-[590px]">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">
               <h2 className="max-w-96  text-left text-balance text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Icons8
               </h2>
