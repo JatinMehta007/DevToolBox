@@ -209,7 +209,6 @@ export const Dashboard = () => {
             <div className=" font-semibold flex ">
               <div className=" flex py-5">
                 <div className="">
-                  {/* <HiSparkles size={44} className="text-sky-400 mx-5 " /> */}
                   <img
                     src="./logos/upslash.png"
                     alt="heropatterns"
