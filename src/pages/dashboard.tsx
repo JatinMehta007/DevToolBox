@@ -34,7 +34,7 @@ export const Dashboard = () => {
       </div>
 
       
-      {/* // TAILWINDCSS */}
+      {/* // TAILWINDC */}
       <a
         href="https://tailwindcss.com/"
         target="_blank"
