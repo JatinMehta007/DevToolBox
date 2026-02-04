@@ -4,7 +4,6 @@
 <p align="center">
 DevToolbox is a beautifully crafted, developer-focused web application designed to centralize essential tools and resources used in daily development. Whether you're looking for tech logos, icons, color palettes, VS Code shortcuts, or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.
   <br />
-  🚧 Note: This project is actively under development — more features and improvements are being added!
   <br />
 <a href="https://dev-tool-box-jatin.vercel.app/"><strong>🔗 Live Demo</strong></a> |
 <a href="https://github.com/JatinMehta007/DevToolBox"><strong>🧠 Source Code</strong></a>
